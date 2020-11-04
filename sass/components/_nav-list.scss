@@ -1,0 +1,9 @@
+.nav__list {
+  @extend%list;
+  display: flex;
+  margin-left: 93px;
+
+  .nav__item:not(:last-child) {
+    margin-right: 50px;
+  }
+}

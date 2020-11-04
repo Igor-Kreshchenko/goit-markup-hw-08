@@ -1,0 +1,14 @@
+.checkbox__input {
+  &:checked + .checkbox__label::before {
+    background-color: $accent-color;
+    background-image: url(../images/icon-check.svg);
+    background-position: center;
+    background-size: contain;
+    background-origin: border-box;
+    border-color: $accent-color;
+  }
+
+  &:focus + .checkbox__label::before {
+    border-color: $accent-color;
+  }
+}

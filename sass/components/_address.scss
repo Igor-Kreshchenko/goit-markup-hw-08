@@ -1,0 +1,11 @@
+.address {
+  font-style: normal;
+  line-height: 1.71;
+
+  color: $primary-white-color;
+
+  &__map {
+    display: block;
+    margin-bottom: 9px;
+  }
+}

@@ -1,0 +1,13 @@
+.modal__list {
+  @extend%list;
+  width: 100%;
+  margin-bottom: 10px;
+
+  .modal__item {
+    margin-bottom: 10px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

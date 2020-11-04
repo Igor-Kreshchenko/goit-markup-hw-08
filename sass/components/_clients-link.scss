@@ -1,0 +1,26 @@
+.clients__link {
+  @extend%link;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 170px;
+  height: 90px;
+  border: 1px solid $icon-fill-color;
+  border-radius: 4px;
+
+  color: $icon-fill-color;
+
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    border-color: $accent-color;
+    color: $accent-color;
+  }
+
+  .clients__icon {
+    fill: currentColor;
+  }
+}
