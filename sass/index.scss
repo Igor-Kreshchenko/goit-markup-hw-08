@@ -1,7 +1,8 @@
 @import './utils/variables';
 @import './utils/placeholders';
+@import './utils/breakpoints';
 
-@import './utils/body';
+@import './utils/base/body';
 @import './utils/section';
 @import './utils/section-title';
 @import './utils/container';
@@ -11,3 +12,8 @@
 
 @import './components/page-header';
 @import './components/logo';
+@import './components/nav-list';
+@import './components/nav-link';
+@import './components/link-current';
+@import './components/contacts';
+@import './components/contacts-link';

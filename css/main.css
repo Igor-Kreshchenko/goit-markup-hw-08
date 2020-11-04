@@ -12,22 +12,22 @@ body {
   font-family: 'Roboto', sans-serif;
   letter-spacing: 0.03em;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 1.71;
   background-color: #ffffff;
   color: #757575;
 }
 
 .section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .section-title {
   margin-top: 0;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
+  font-size: 28px;
+  line-height: 1.179;
   text-align: center;
   color: #212121;
 }
@@ -83,8 +83,8 @@ body {
 }
 
 .header {
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 16px;
+  padding-bottom: 16px;
   border-bottom: 1px solid #ececec;
 }
 
