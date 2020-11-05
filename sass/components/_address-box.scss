@@ -7,4 +7,12 @@
     width: calc(50% - 30px);
     margin-bottom: 0;
   }
+
+  @media screen and (min-width: $desktop) {
+    width: 270px;
+    margin-left: 0;
+    margin-right: 30px;
+
+    text-align: start;
+  }
 }

@@ -514,6 +514,14 @@ body {
   text-align: center;
 }
 
+@media screen and (min-width: 1200px) {
+  .footer .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
 .footer-box {
   margin-bottom: 60px;
 }
@@ -528,6 +536,14 @@ body {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .footer-box {
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
 .address-box {
   margin-bottom: 60px;
 }
@@ -538,6 +554,15 @@ body {
     margin-right: 15px;
     width: calc(50% - 30px);
     margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .address-box {
+    width: 270px;
+    margin-left: 0;
+    margin-right: 30px;
+    text-align: start;
   }
 }
 
@@ -591,6 +616,24 @@ body {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .footer__social {
+    width: 270px;
+    margin-left: 0;
+    margin-right: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+}
+
 .offer {
   display: block;
   margin-bottom: 20px;
@@ -606,10 +649,29 @@ body {
   fill: #ffffff;
 }
 
-.footer__form {
-  width: 450px;
-  margin-left: auto;
-  margin-right: auto;
+@media screen and (min-width: 768px) {
+  .footer__form {
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer__form {
+    text-align: start;
+    width: 570px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer__form-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 .footer__input {
@@ -651,6 +713,13 @@ body {
   line-height: 1.25;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+@media screen and (min-width: 1200px) {
+  .footer__input {
+    margin-bottom: 0;
+    margin-right: 12px;
+  }
 }
 
 .button--icon {

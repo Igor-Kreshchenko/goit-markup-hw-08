@@ -1,3 +1,7 @@
 .footer .container {
   text-align: center;
+
+  @media screen and (min-width: $desktop) {
+    display: flex;
+  }
 }
