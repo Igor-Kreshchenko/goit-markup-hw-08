@@ -48,12 +48,17 @@ body {
 
 .section-title {
   margin-top: 0;
-  margin-bottom: 30px;
-  font-weight: 700;
-  font-size: 28px;
-  line-height: 1.179;
   text-align: center;
+  font-weight: 700;
   color: #212121;
+}
+
+@media screen and (max-width: 1199px) {
+  .section-title {
+    margin-bottom: 30px;
+    font-size: 28px;
+    line-height: 1.179;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -115,9 +120,14 @@ body {
 }
 
 .header {
-  padding-top: 16px;
-  padding-bottom: 16px;
   border-bottom: 1px solid #ececec;
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
 }
 
 @media screen and (min-width: 768px) {

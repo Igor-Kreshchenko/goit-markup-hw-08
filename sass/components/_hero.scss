@@ -1,7 +1,4 @@
 .hero {
-  padding-top: 118px;
-  padding-bottom: 118px;
-
   margin-left: auto;
   margin-right: auto;
 
@@ -22,5 +19,10 @@
   @media screen and(min-width: $desktop) {
     padding-top: 200px;
     padding-bottom: 200px;
+  }
+
+  @media screen and (max-width: 1199px) {
+    padding-top: 118px;
+    padding-bottom: 118px;
   }
 }

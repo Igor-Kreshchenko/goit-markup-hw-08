@@ -1,11 +1,15 @@
 .section-title {
   margin-top: 0;
-  margin-bottom: 30px;
+  text-align: center;
 
   font-weight: 700;
-  font-size: 28px;
-  line-height: 1.179;
-  text-align: center;
+
+  @media screen and(max-width:1199px) {
+    margin-bottom: 30px;
+
+    font-size: 28px;
+    line-height: 1.179;
+  }
 
   color: $title-text-color;
 
