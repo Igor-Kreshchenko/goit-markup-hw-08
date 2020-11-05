@@ -16,4 +16,16 @@
   .backdrop.is-hidden & {
     transform: translate(-50%, -50%) scale(0.9);
   }
+
+  @media screen and (max-width: 479px) {
+    width: calc(100% - 30px);
+  }
+
+  @media screen and (min-width: $mobile) {
+    width: 450px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    width: 528px;
+  }
 }
