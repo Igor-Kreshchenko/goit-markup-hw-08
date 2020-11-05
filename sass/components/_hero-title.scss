@@ -2,17 +2,14 @@
   margin-top: 0;
   margin-bottom: 30px;
 
+  font-size: 26px;
+  line-height: 1.62;
   font-weight: 900;
 
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
   color: $primary-white-color;
-
-  @media screen and (max-width: 1199px) {
-    font-size: 26px;
-    line-height: 1.62;
-  }
 
   @media screen and(min-width: $desktop) {
     font-size: 44px;
