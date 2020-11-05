@@ -58,6 +58,7 @@ body {
 
 @media screen and (min-width: 1200px) {
   .section-title {
+    margin-bottom: 50px;
     font-size: 36px;
     line-height: 1.17;
   }
@@ -124,24 +125,6 @@ body {
     padding-top: 26px;
     padding-bottom: 26px;
   }
-}
-
-.header .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .logo {
@@ -394,6 +377,13 @@ body {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .team__item {
+    width: calc((100% - 120px) / 4);
+    padding-bottom: 30px;
+  }
+}
+
 .team__image {
   margin-bottom: 30px;
 }
@@ -475,6 +465,18 @@ body {
   height: 90px;
 }
 
+@media screen and (min-width: 768px) {
+  .clients__item {
+    width: calc((100% - 90px) / 3);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .clients__item {
+    width: calc((100% - 180px) / 6);
+  }
+}
+
 .clients__link {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -512,8 +514,31 @@ body {
   text-align: center;
 }
 
-.footer__box {
+.footer-box {
   margin-bottom: 60px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+}
+
+.address-box {
+  margin-bottom: 60px;
+}
+
+@media screen and (min-width: 768px) {
+  .address-box {
+    margin-left: 15px;
+    margin-right: 15px;
+    width: calc(50% - 30px);
+    margin-bottom: 0;
+  }
 }
 
 .footer__logo {
@@ -557,6 +582,15 @@ body {
   margin-bottom: 60px;
 }
 
+@media screen and (min-width: 768px) {
+  .footer__social {
+    margin-left: 15px;
+    margin-right: 15px;
+    width: calc(50% - 30px);
+    margin-bottom: 0;
+  }
+}
+
 .offer {
   display: block;
   margin-bottom: 20px;
@@ -570,6 +604,12 @@ body {
 
 .social__link--grey .social__icon {
   fill: #ffffff;
+}
+
+.footer__form {
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footer__input {
