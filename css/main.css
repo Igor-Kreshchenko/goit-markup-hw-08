@@ -301,6 +301,12 @@ body {
   padding-top: 0;
 }
 
+@media screen and (min-width: 1200px) {
+  .section__working {
+    display: block;
+  }
+}
+
 .working {
   display: -webkit-box;
   display: -ms-flexbox;
