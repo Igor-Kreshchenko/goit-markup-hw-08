@@ -9,4 +9,9 @@
   text-transform: uppercase;
 
   color: $primary-white-color;
+
+  @media screen and(min-width: $desktop) {
+    font-size: 44px;
+    line-height: 1.36;
+  }
 }

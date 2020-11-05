@@ -1,13 +1,28 @@
 .features {
   @extend%list;
 
-  &__item {
-    width: 100%;
+  @media screen and (min-width: $tablet) {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+  }
 
+  &__item {
     margin-bottom: 30px;
 
     &:last-child {
-      margin-bottom: 0;
+      @media screen and (max-width: 767px) {
+        margin-bottom: 0;
+      }
+    }
+
+    @media screen and (min-width: $tablet) {
+      margin: 15px;
+      width: calc((100% - 60px) / 2);
+    }
+
+    @media screen and (min-width: $desktop) {
+      width: calc((100% - 120px) / 4);
     }
   }
 }
