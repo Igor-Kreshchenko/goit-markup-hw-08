@@ -1,5 +1,7 @@
 .footer-box {
-  margin-bottom: 60px;
+  @media screen and(max-width:1199px) {
+    margin-bottom: 60px;
+  }
 
   @media screen and(min-width: $tablet) {
     display: flex;
@@ -8,7 +10,6 @@
   }
 
   @media screen and(min-width: $desktop) {
-    margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
   }

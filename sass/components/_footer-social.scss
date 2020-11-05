@@ -9,12 +9,12 @@
   }
 
   @media screen and (min-width: $desktop) {
-    width: 270px;
-    margin-left: 0;
-    margin-right: 30px;
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+
+    width: 270px;
+    margin-left: 0;
+    margin-right: 30px;
   }
 }
