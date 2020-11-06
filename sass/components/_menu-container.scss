@@ -3,6 +3,8 @@
   background-color: $primary-bg-color;
   width: 100%;
 
+  z-index: 3;
+
   @media screen and (max-width: 767px) {
     display: none;
     position: absolute;
