@@ -1,6 +1,11 @@
 .nav__link {
   @extend%link;
 
+  @media screen and (max-width: $mobile) {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
   padding-top: 32px;
   padding-bottom: 32px;
 

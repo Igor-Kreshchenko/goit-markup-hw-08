@@ -11,4 +11,10 @@
     padding-top: 26px;
     padding-bottom: 26px;
   }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
