@@ -1,13 +1,14 @@
 .menu-container {
   line-height: 1.167;
-  background-color: tomato;
+  background-color: $primary-bg-color;
+  width: 100%;
 
   @media screen and (max-width: 767px) {
     display: none;
     position: absolute;
     top: 100%;
     left: 0;
-    width: 100%;
+
     padding-top: 60px;
     padding-bottom: 60px;
     text-align: center;

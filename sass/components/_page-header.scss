@@ -12,6 +12,11 @@
     padding-bottom: 21px;
   }
 
+  @media screen and (min-width: $desktop) {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
   .container {
     display: flex;
     align-items: center;

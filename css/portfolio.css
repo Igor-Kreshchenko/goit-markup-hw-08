@@ -127,6 +127,7 @@ body.modal-open {
   .header {
     padding-top: 16px;
     padding-bottom: 16px;
+    border-top: 1px solid #ececec;
   }
 }
 
@@ -134,6 +135,13 @@ body.modal-open {
   .header {
     padding-top: 21px;
     padding-bottom: 21px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .header {
+    padding-top: 25px;
+    padding-bottom: 25px;
   }
 }
 
@@ -209,8 +217,8 @@ body.modal-open {
 
 @media screen and (min-width: 768px) {
   .nav__link {
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding-top: 33px;
+    padding-bottom: 33px;
   }
 }
 
@@ -255,15 +263,34 @@ body.modal-open {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .contacts {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .contacts__item:not(:last-child) {
     margin-bottom: 16px;
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .contacts__item:not(:last-child) {
     margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .contacts__item:not(:last-child) {
+    margin-right: 30px;
+    font-size: 14px;
   }
 }
 
