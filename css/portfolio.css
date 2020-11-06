@@ -380,7 +380,6 @@ body.modal-open {
   line-height: 1.167;
   background-color: #ffffff;
   width: 100%;
-  z-index: 10;
 }
 
 @media screen and (max-width: 767px) {
@@ -389,6 +388,7 @@ body.modal-open {
     position: absolute;
     top: 100%;
     left: 0;
+    z-index: 5;
     padding-top: 60px;
     padding-bottom: 60px;
     text-align: center;
