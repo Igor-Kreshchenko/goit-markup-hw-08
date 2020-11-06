@@ -1,6 +1,8 @@
 .contacts__link {
   @extend%link;
+
   display: flex;
+  justify-content: center;
   align-items: center;
 
   font-weight: 500;
@@ -16,5 +18,10 @@
 
   .contacts__icon {
     fill: currentColor;
+    margin-right: 10px;
+
+    @media screen and (min-width: $tablet) and (max-width: 1199px) {
+      margin-right: 8px;
+    }
   }
 }

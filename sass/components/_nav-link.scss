@@ -1,13 +1,15 @@
 .nav__link {
   @extend%link;
 
-  @media screen and (max-width: $mobile) {
+  @media screen and(max-width:767px) {
     padding-top: 12px;
     padding-bottom: 12px;
   }
 
-  padding-top: 32px;
-  padding-bottom: 32px;
+  @media screen and (min-width: $tablet) {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
 
   font-weight: 500;
   letter-spacing: 0.02em;

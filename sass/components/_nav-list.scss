@@ -1,8 +1,22 @@
 .nav__list {
   @extend%list;
 
+  @media screen and (max-width: 767px) {
+    margin-bottom: 60px;
+  }
+
+  @media screen and(min-width:$tablet) {
+    display: flex;
+  }
+
+  .nav__item {
+    @media screen and(min-width:$tablet) {
+      margin-right: 50px;
+    }
+  }
+
   .nav__item:not(:last-child) {
-    @media screen and (max-width: $mobile) {
+    @media screen and (max-width: 767px) {
       margin-bottom: 40px;
     }
   }

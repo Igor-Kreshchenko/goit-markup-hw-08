@@ -5,6 +5,10 @@
   border: none;
   background-color: transparent;
 
+  @media screen and (min-width: $tablet) {
+    display: none;
+  }
+
   &:hover,
   &:focus {
     color: $accent-color;

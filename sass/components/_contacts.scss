@@ -1,3 +1,28 @@
 .contacts {
   @extend%list;
+  display: inline-block;
+
+  @media screen and (min-width: $tablet) {
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  &__item {
+    &:not(:last-child) {
+      @media screen and (max-width: 767px) {
+        margin-bottom: 16px;
+      }
+
+      @media screen and (min-width: $tablet) {
+        margin-bottom: 10px;
+      }
+    }
+
+    @media screen and (min-width: $tablet) {
+      font-size: 12px;
+      line-height: 1.143;
+    }
+  }
 }

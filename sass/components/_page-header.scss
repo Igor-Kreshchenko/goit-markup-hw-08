@@ -8,13 +8,16 @@
   }
 
   @media screen and (min-width: $tablet) {
-    padding-top: 26px;
-    padding-bottom: 26px;
+    padding-top: 21px;
+    padding-bottom: 21px;
   }
 
   .container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+
+    @media screen and (max-width: 767px) {
+      justify-content: space-between;
+    }
   }
 }
