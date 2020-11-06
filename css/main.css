@@ -115,6 +115,7 @@ body {
 }
 
 .header {
+  position: relative;
   border-bottom: 1px solid #ececec;
 }
 
@@ -195,6 +196,55 @@ body {
 
 .contacts__link .contacts__icon {
   fill: currentColor;
+}
+
+.menu-button {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+.menu-button:hover, .menu-button:focus {
+  color: #2196f3;
+}
+
+.menu-button__cross {
+  display: none;
+  fill: currentColor;
+}
+
+.menu-button.is-open .menu-button__cross {
+  display: block;
+}
+
+.menu-button__menu {
+  fill: currentColor;
+}
+
+.menu-button.is-open .menu-button__menu {
+  display: none;
+}
+
+.menu-container {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.17;
+  background-color: tomato;
+}
+
+.menu-container.is-open {
+  display: block;
 }
 
 .hero {

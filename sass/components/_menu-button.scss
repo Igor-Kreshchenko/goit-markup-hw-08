@@ -1,0 +1,29 @@
+.menu-button {
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+
+  &__cross {
+    display: none;
+    fill: currentColor;
+
+    .menu-button.is-open & {
+      display: block;
+    }
+  }
+
+  &__menu {
+    fill: currentColor;
+
+    .menu-button.is-open & {
+      display: none;
+    }
+  }
+}
