@@ -169,6 +169,13 @@ body.modal-open {
   color: #212121;
 }
 
+@media screen and (min-width: 1200px) {
+  .logo {
+    font-size: 26px;
+    line-height: 1.19;
+  }
+}
+
 .logo__text {
   color: #2196f3;
 }
@@ -373,7 +380,7 @@ body.modal-open {
   line-height: 1.167;
   background-color: #ffffff;
   width: 100%;
-  z-index: 3;
+  z-index: 10;
 }
 
 @media screen and (max-width: 767px) {
@@ -386,6 +393,7 @@ body.modal-open {
     padding-bottom: 60px;
     text-align: center;
     font-size: 18px;
+    border-top: 1px solid #ececec;
   }
   .menu-container.is-open {
     display: block;

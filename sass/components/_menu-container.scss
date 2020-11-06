@@ -3,7 +3,7 @@
   background-color: $primary-bg-color;
   width: 100%;
 
-  z-index: 3;
+  z-index: 10;
 
   @media screen and (max-width: 767px) {
     display: none;
@@ -16,6 +16,8 @@
     text-align: center;
 
     font-size: 18px;
+
+    border-top: 1px solid #ececec;
 
     &.is-open {
       display: block;
