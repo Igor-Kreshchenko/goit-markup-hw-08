@@ -387,6 +387,9 @@ body.modal-open {
     text-align: center;
     font-size: 18px;
   }
+  .menu-container.is-open {
+    display: block;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -405,10 +408,6 @@ body.modal-open {
   .menu-container {
     margin-left: 93px;
   }
-}
-
-.menu-container.is-open {
-  display: block;
 }
 
 .hero {
