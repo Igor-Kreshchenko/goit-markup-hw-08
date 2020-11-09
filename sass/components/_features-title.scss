@@ -7,4 +7,8 @@
   text-transform: uppercase;
 
   color: $title-text-color;
+
+  @media screen and (max-width: 767px) {
+    text-align: center;
+  }
 }

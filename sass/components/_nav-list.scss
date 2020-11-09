@@ -13,11 +13,11 @@
     @media screen and(min-width:$tablet) {
       margin-right: 50px;
     }
-  }
 
-  .nav__item:not(:last-child) {
-    @media screen and (max-width: 767px) {
-      margin-bottom: 40px;
+    &:not(:last-child) {
+      @media screen and (max-width: 767px) {
+        margin-bottom: 40px;
+      }
     }
   }
 }

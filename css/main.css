@@ -64,7 +64,7 @@ img {
   .section-title {
     margin-bottom: 50px;
     font-size: 36px;
-    line-height: 1.17;
+    line-height: 1.172;
   }
 }
 
@@ -121,13 +121,8 @@ img {
 .header {
   position: relative;
   border-bottom: 1px solid #ececec;
-}
-
-@media screen and (max-width: 767px) {
-  .header {
-    padding-top: 16px;
-    padding-bottom: 16px;
-  }
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 @media screen and (min-width: 768px) {
@@ -169,15 +164,15 @@ img {
   color: #212121;
 }
 
+.logo__text {
+  color: #2196f3;
+}
+
 @media screen and (min-width: 1200px) {
   .logo {
     font-size: 26px;
     line-height: 1.19;
   }
-}
-
-.logo__text {
-  color: #2196f3;
 }
 
 @media screen and (max-width: 767px) {
@@ -281,6 +276,11 @@ img {
   }
 }
 
+.contacts__item {
+  font-size: 18px;
+  line-height: 1.167;
+}
+
 @media screen and (max-width: 767px) {
   .contacts__item:not(:last-child) {
     margin-bottom: 16px;
@@ -290,6 +290,7 @@ img {
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .contacts__item:not(:last-child) {
     margin-bottom: 10px;
+    font-size: 12px;
   }
 }
 
@@ -297,12 +298,6 @@ img {
   .contacts__item:not(:last-child) {
     margin-right: 30px;
     font-size: 14px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .contacts__item {
-    font-size: 12px;
     line-height: 1.143;
   }
 }
@@ -377,7 +372,6 @@ img {
 }
 
 .menu-container {
-  line-height: 1.167;
   background-color: #ffffff;
   width: 100%;
 }
@@ -392,7 +386,6 @@ img {
     padding-top: 60px;
     padding-bottom: 60px;
     text-align: center;
-    font-size: 18px;
     border-top: 1px solid #ececec;
   }
   .menu-container.is-open {
@@ -446,28 +439,28 @@ img {
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 481px) {
   .hero {
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/hero-bg/hero-tablet-768.jpg);
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-bg/hero-tablet-768.jpg);
   }
 }
 
-@media screen and (min-width: 480px) and (min-device-pixel-ratio: 2), screen and (min-width: 480px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 480px) and (min-resolution: 192dpi), screen and (min-width: 480px) and (min-resolution: 2dppx) {
+@media screen and (min-width: 481px) and (min-device-pixel-ratio: 2), screen and (min-width: 481px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 481px) and (min-resolution: 192dpi), screen and (min-width: 481px) and (min-resolution: 2dppx) {
   .hero {
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/hero-bg/hero-tablet-1536.jpg);
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-bg/hero-tablet-1536.jpg);
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
   .hero {
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/hero-bg/hero-desktop-1600.jpg);
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-bg/hero-desktop-1600.jpg);
   }
 }
 
-@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
+@media screen and (min-width: 769px) and (min-device-pixel-ratio: 2), screen and (min-width: 769px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 769px) and (min-resolution: 192dpi), screen and (min-width: 769px) and (min-resolution: 2dppx) {
   .hero {
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/hero-bg/hero-desktop-3200.jpg);
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-bg/hero-desktop-3200.jpg);
@@ -551,10 +544,15 @@ img {
   color: #212121;
 }
 
+@media screen and (max-width: 767px) {
+  .features__title {
+    text-align: center;
+  }
+}
+
 .features__text {
   margin-top: 0;
   margin-bottom: 0;
-  line-height: 1.71;
 }
 
 .section__working {
