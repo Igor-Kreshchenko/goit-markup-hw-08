@@ -17,11 +17,12 @@
     }
   }
 
-  @media screen and (max-width: 1199px) {
+  @media screen and (max-width: 767px) {
     max-width: 450px;
   }
 
   @media screen and (min-width: $tablet) {
+    width: 450px;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -33,6 +34,6 @@
   }
 
   @media screen and (min-width: $desktop) {
-    max-width: 528px;
+    width: 528px;
   }
 }
