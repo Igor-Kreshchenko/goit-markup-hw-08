@@ -281,6 +281,20 @@ img {
   line-height: 1.167;
 }
 
+@media screen and (min-width: 768px) {
+  .contacts__item {
+    font-size: 12px;
+    line-height: 1.143;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .contacts__item {
+    font-size: 14px;
+    line-height: 1.172;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .contacts__item:not(:last-child) {
     margin-bottom: 16px;
@@ -290,15 +304,12 @@ img {
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .contacts__item:not(:last-child) {
     margin-bottom: 10px;
-    font-size: 12px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .contacts__item:not(:last-child) {
     margin-right: 30px;
-    font-size: 14px;
-    line-height: 1.143;
   }
 }
 
@@ -1038,7 +1049,7 @@ img {
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 1199px) {
   .modal {
     max-width: 450px;
   }

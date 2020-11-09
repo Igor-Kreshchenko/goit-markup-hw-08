@@ -18,6 +18,16 @@
     font-size: 18px;
     line-height: 1.167;
 
+    @media screen and (min-width: $tablet) {
+      font-size: 12px;
+      line-height: 1.143;
+    }
+
+    @media screen and (min-width: $desktop) {
+      font-size: 14px;
+      line-height: 1.172;
+    }
+
     &:not(:last-child) {
       @media screen and (max-width: 767px) {
         margin-bottom: 16px;
@@ -25,13 +35,10 @@
 
       @media screen and (min-width: $tablet) and (max-width: 1199px) {
         margin-bottom: 10px;
-        font-size: 12px;
       }
 
       @media screen and (min-width: $desktop) {
         margin-right: 30px;
-        font-size: 14px;
-        line-height: 1.143;
       }
     }
   }
