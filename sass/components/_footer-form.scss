@@ -1,14 +1,10 @@
 .footer__form {
-  @media screen and (min-width: $tablet) {
-    width: 450px;
-    margin-left: auto;
-    margin-right: auto;
-  }
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
 
   @media screen and (min-width: $desktop) {
     text-align: start;
     width: 570px;
-    margin-left: 0;
-    margin-right: 0;
   }
 }

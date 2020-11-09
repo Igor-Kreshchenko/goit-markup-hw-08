@@ -1,11 +1,12 @@
 .footer__social {
-  margin-bottom: 60px;
+  @media screen and(max-width: 767px) {
+    margin-bottom: 60px;
+  }
 
   @media screen and(min-width: $tablet) {
     margin-left: 15px;
     margin-right: 15px;
     width: calc(50% - 30px);
-    margin-bottom: 0;
   }
 
   @media screen and (min-width: $desktop) {
@@ -13,7 +14,7 @@
     flex-direction: column;
     align-items: flex-start;
 
-    width: 270px;
+    min-width: 270px;
     margin-left: 0;
     margin-right: 30px;
   }
