@@ -590,6 +590,13 @@ img {
   color: #ffffff;
 }
 
+@media screen and (max-width: 340px) {
+  .gallery__overlay-text {
+    font-size: 14px;
+    line-height: 1.36;
+  }
+}
+
 .social {
   display: -webkit-box;
   display: -ms-flexbox;

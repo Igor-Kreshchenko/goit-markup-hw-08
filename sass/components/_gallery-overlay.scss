@@ -25,5 +25,10 @@
     font-size: 18px;
     line-height: 1.56;
     color: $primary-white-color;
+
+    @media screen and (max-width: 340px) {
+      font-size: 14px;
+      line-height: 1.36;
+    }
   }
 }
