@@ -6,9 +6,14 @@
     padding-bottom: 12px;
   }
 
-  @media screen and (min-width: $tablet) {
+  @media screen and(min-width:$tablet) and (max-width: 1199px) {
     padding-top: 33px;
     padding-bottom: 33px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    padding-top: 32px;
+    padding-bottom: 32px;
   }
 
   font-weight: 500;

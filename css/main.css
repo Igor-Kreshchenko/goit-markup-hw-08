@@ -216,10 +216,17 @@ img {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .nav__link {
     padding-top: 33px;
     padding-bottom: 33px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .nav__link {
+    padding-top: 32px;
+    padding-bottom: 32px;
   }
 }
 
