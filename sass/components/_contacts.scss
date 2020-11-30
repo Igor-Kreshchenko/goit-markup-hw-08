@@ -1,5 +1,5 @@
 .contacts {
-  @extend%list;
+  @extend %list;
   display: inline-block;
 
   @media screen and (min-width: $tablet) {

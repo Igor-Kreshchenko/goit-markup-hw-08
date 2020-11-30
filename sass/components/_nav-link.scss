@@ -1,5 +1,5 @@
 .nav__link {
-  @extend%link;
+  @extend %link;
 
   @media screen and(max-width:767px) {
     padding-top: 12px;
